@@ -1,5 +1,13 @@
+import { Section, Title } from './styles'
+
 const Testimonials = () => {
-  return <div>Testimonials component</div>
+  return (
+    <Section>
+      <Title>
+        2:4
+      </Title>
+    </Section>
+  )
 }
 
 export default Testimonials
