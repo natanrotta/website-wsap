@@ -3,7 +3,6 @@ import SvgBlock from '../../components/SvgBlock'
 
 import Tube from '../../assets/3dtube.png'
 import Cone from '../../assets/3dtriangle.png'
-import Capsule from '../../assets/3dcapsule.png'
 
 import { 
   ServiceSection,
@@ -60,9 +59,6 @@ const Services = () => {
           title="We provide support for your digital presence"
           subText="Once you system is online, we will stay on hand to help you use it and provide tech you bisiness"
         />
-        <OBJ>
-          <img src={Capsule} alt="Tube"/>
-        </OBJ>
         <SvgBlock 
           svg="Support.svg"        
         />
