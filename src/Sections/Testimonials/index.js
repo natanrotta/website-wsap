@@ -17,7 +17,7 @@ const Testimonials = () => {
   };
 
   return (
-    <Section>
+    <Section id="testimonials">
       <Title>
         Few good words about us!
       </Title>

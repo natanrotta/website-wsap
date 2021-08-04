@@ -16,7 +16,7 @@ import {
 
 const Services = () => {
   return (
-    <ServiceSection>
+    <ServiceSection id="services">
       <Background>
         <Title>
           What We Do

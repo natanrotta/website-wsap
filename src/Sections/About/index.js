@@ -20,7 +20,7 @@ import {
 
 const About = () => {
   return (
-    <AboutSection>
+    <AboutSection id="about">
       <Waves src={wave} alt="Wave" />
       <Hand>
         <img src={hand} alt="Hand" />
