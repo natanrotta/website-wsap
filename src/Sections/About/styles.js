@@ -86,6 +86,7 @@ export const Rocket = styled.div`
     padding-bottom: 0;
   }
 `
+
 export const AboutText = styled.div`
   position: relative;
   width: 50%;

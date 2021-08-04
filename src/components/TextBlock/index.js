@@ -9,14 +9,14 @@ import {
 const TextBlock = ({ topic, title, subText, children }) => {
   return (
     <LeftBlock>
-    <Topic>
-      <Circle /> <span>{topic}</span>
-    </Topic>
-    <Title>
-      {title}
-    </Title>
-    <SubText>{subText}</SubText>
-    {children}
+      <Topic>
+        <Circle /> <span>{topic}</span>
+      </Topic>
+      <Title>
+        {title}
+      </Title>
+      <SubText>{subText}</SubText>
+      {children}
   </LeftBlock>
   )
 }
